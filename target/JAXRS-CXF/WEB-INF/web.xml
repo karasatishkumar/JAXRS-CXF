@@ -2,22 +2,22 @@
 	xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee 
 	http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
-	<display-name>JAXRS-CFX</display-name>
+	<display-name>JAXRS-CXF</display-name>
 	<servlet>
-		<servlet-name>CFXApplication</servlet-name>
-		<display-name>CFXApplication</display-name>
+		<servlet-name>CXFApplication</servlet-name>
+		<display-name>CXFApplication</display-name>
 		<servlet-class>
 			org.apache.cxf.jaxrs.servlet.CXFNonSpringJaxrsServlet
 		</servlet-class>
 		<init-param>
 			<param-name>javax.ws.rs.Application</param-name>
-			<param-value>com.techiekernel.rest.CFXApplication</param-value>
+			<param-value>com.techiekernel.rest.CXFApplication</param-value>
 		</init-param>
 		<load-on-startup>1</load-on-startup>
 	</servlet>
 
 	<servlet-mapping>
-		<servlet-name>CFXApplication</servlet-name>
+		<servlet-name>CXFApplication</servlet-name>
 		<url-pattern>/ws/*</url-pattern>
 	</servlet-mapping>
 </web-app>

@@ -2,7 +2,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.techiekernel.rest</groupId>
-	<artifactId>JAXRS-CFX</artifactId>
+	<artifactId>JAXRS-CXF</artifactId>
 	<packaging>war</packaging>
 	<version>1.0-SNAPSHOT</version>
 	<name>JAXRS-Jersey Maven Webapp</name>
@@ -39,6 +39,6 @@
 				</configuration>
 			</plugin>
 		</plugins>
-		<finalName>JAXRS-CFX</finalName>
+		<finalName>JAXRS-CXF</finalName>
 	</build>
 </project>

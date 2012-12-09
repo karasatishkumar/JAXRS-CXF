@@ -8,10 +8,10 @@ import javax.ws.rs.core.Application;
 import javax.ws.rs.ext.Provider;
 
 @Provider
-public class CFXApplication extends Application {
+public class CXFApplication extends Application {
 	private Set<Object> singletons = new HashSet<Object>();
 	 
-	public CFXApplication() {
+	public CXFApplication() {
 		singletons.add(new FooBarService());
 	}
  

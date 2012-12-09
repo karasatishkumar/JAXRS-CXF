@@ -1,5 +1,0 @@
-<jaxrs:server id="JAXRS-CFX" address="/ws/">
-	<jaxrs:serviceBeans>
-		<bean class="com.techiekernel.rest.FooBarService" />
-	</jaxrs:serviceBeans>
-</jaxrs:server>
